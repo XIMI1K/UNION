@@ -1,0 +1,25 @@
+light_sabotage_ship = {
+	cost = @tier2cost1
+	area = engineering
+	start_tech = no
+	category = { voidcraft }
+	prerequisites = { "tech_corvettes" }
+	tier = 2
+
+	prereqfor_desc = {
+		ship = {
+			title = "tech_unlock_light_sabotage_ship_construction_title"
+			desc = "tech_unlock_light_sabotage_ship_construction_desc"
+		}
+	}
+	modifier = {
+		ship_orbital_bombardment_mult =0.05
+	}
+	weight_modifier = {
+		factor = 1500
+	}
+	
+	ai_weight = {
+		weight = 10000
+	}
+}
